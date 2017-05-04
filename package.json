@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-nativeaudio",
+  "version": "3.0.1",
+  "description": "Cordova audio extension for concurrent (multi-channel), polyphonic (multi-voice) and latency-reduced (caching) audio playback, designed for games and audio applications",
+  "private": false,
+  "cordova": {
+    "id": "de.neofonie.cordova.plugin.nativeaudio",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "iOS",
+    "Android",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova-android": ">=4.0.0",
+        "cordova-ios": ">= 4.2.0"
+      }
+    }
+  }
+}
